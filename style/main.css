@@ -1,0 +1,46 @@
+:root{
+    --vermelho:#E50914;
+    --preto:#141414;
+}
+
+
+*{ /* O asterisco serve para marcar todos os lugares no aquivo html*/ 
+ margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+
+}
+/*Elementos Base*/
+body{
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+
+}
+.logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    margin-left: 5px;
+}
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+
+}
+header nav a:hover{
+    color: #fff;
+}
+header .container{
+    display: flex;/*Joga tudo em linha(alinha) */
+    flex-direction: row;/*Joga tudo em linha(ele ja vem com formato row por defult*/
+    align-items: center;/*ajuda a centralizar os itens*/
+    justify-content: space-between ;/*Propriedade para justificar elementos ou seja o space-between separa na pagina colocado no outro lada da pagina*/ 
+
+}
+/*Filme Principal*/
+.filme-principal{
+    font-size: 16px;
+    background: url("/recursos/coringa.jpg");
+}
