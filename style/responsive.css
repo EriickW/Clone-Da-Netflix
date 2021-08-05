@@ -1,0 +1,11 @@
+@media screen and (max-width:700px){/*funciona como um if em css ou "se" o desposidivo for menor que 700px ele vai arrumar comforme o indicado abaixo*/ 
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .botao{
+        margin-bottom: 10px;
+        width: 300px;
+
+    }
+}

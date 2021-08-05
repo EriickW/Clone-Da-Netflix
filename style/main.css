@@ -13,7 +13,7 @@
 /*Elementos Base*/
 body{
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 
 }
@@ -61,11 +61,13 @@ header .container{
     font-size: 70px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: 15%;
+
 }
 .botao{
     background-color: rgba(0,0,0,.50);
     border: none;
     color: white;
+    margin-bottom: 5px;
     padding: 15px 30px;
     margin-right: 20px;
     margin-left: 10px;
@@ -78,4 +80,16 @@ header .container{
 }
 .botao i{
     margin-right: 5px;
+}
+.filme-principal .container{
+    width: 40%;
+    margin-left: 20px;
+}
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.carrosel-filmes{
+    margin-top: 5px;
 }
