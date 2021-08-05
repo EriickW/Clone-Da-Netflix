@@ -42,5 +42,40 @@ header .container{
 /*Filme Principal*/
 .filme-principal{
     font-size: 16px;
-    background: url("/recursos/coringa.jpg");
+   
+    background: linear-gradient(rgba(0,0,0,.50),rgba(63, 13, 13, 0.5)100%), url("/recursos/coringa1.jpg");/*gradiente geralmente ele pede outra cor para criar uma camada fina em cima da inmagem*/
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;/*Fazz com que tudo foque em colunas */
+    justify-content: center;/*esse faz com que os item em colunas fica no centro da coluna*/
+    align-items: flex-start;/*faz com que os items fiquem no começo da linha */
+
+}
+.filme-principal .descricao{
+    margin-bottom: 40px;
+    margin-top: 10px;
+
+}
+.filme-principal .titulo{
+    font-size: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 15%;
+}
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: .3s ease all;/*cria um efeito de transição em algum efeito relacionado a classe*/
+}
+.botao:hover{/*hover faz com qu quando o mause estiver em cima ele execute uma ação*/
+    background-color: white;
+    color: black;
+}
+.botao i{
+    margin-right: 5px;
 }
