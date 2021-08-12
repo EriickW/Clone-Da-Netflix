@@ -43,7 +43,7 @@ header .container{
 .filme-principal{
     font-size: 16px;
    
-    background: linear-gradient(rgba(0,0,0,.50),rgba(63, 13, 13, 0.5)100%), url("/recursos/coringa1.jpg");/*gradiente geralmente ele pede outra cor para criar uma camada fina em cima da inmagem*/
+    background: linear-gradient(rgba(0,0,0,.50),rgba(63, 13, 13, 0.5)100%), url("../recursos/coringa1.jpg");/*gradiente geralmente ele pede outra cor para criar uma camada fina em cima da inmagem*/
     height: 500px;
     background-size: cover;
     display: flex;
